@@ -109,3 +109,10 @@ th {
     font-size: 0.8em;
   } */
 }
+@media (max-width: 600px) {
+  th, td {
+    &[data-sp-display="none"] {
+      display: none;
+    }
+  }
+}
